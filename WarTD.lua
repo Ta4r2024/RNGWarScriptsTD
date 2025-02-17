@@ -339,7 +339,6 @@ Tabs.Misc:AddParagraph({
                         Title = "On",
                         Callback = function()
                             game.Players.LocalPlayer.GamePass.HatchLuck.Value = 0
-							game.Players.LocalPlayer.GamePass.HeroBagSize.Value = 0
                         end
                     },
                     {
@@ -354,23 +353,22 @@ Tabs.Misc:AddParagraph({
     })
 
 		Tabs.Misc:AddParagraph({
-        Title = "FastMagic GamePass",
-        Content = "FastMagic\nCool Scripts"
+        Title = "HatchLuck GamePass",
+        Content = "HatchLuck\nCool Scripts"
     })
 
 	Tabs.Misc:AddButton({
-        Title = "FastMagic On",
-        Description = "FastMagic ;)",
+        Title = "HatchLuck On",
+        Description = "HatchLuck ;)",
         Callback = function()
             Window:Dialog({
-                Title = "FastMagic",
-                Content = "FastMagic Super",
+                Title = "HatchLuck",
+                Content = "HatchLuck Super",
                 Buttons = {
                     {
                         Title = "On",
                         Callback = function()
                             game.Players.LocalPlayer.GamePass.HatchLuck.Value = 1
-							game.Players.LocalPlayer.GamePass.Fast-Hatch.Value = 1
                         end
                     },
                     {
@@ -385,18 +383,17 @@ Tabs.Misc:AddParagraph({
     })
 
 	Tabs.Misc:AddButton({
-        Title = "FastMagic Off",
-        Description = "FastMagic ;)",
+        Title = "HatchLuck Off",
+        Description = "HatchLuck ;)",
         Callback = function()
             Window:Dialog({
-                Title = "FastMagic",
-                Content = "FastMagic Super",
+                Title = "HatchLuck",
+                Content = "HatchLuck Super",
                 Buttons = {
                     {
                         Title = "On",
                         Callback = function()
                             game.Players.LocalPlayer.GamePass.HatchLuck.Value = 0
-							game.Players.LocalPlayer.GamePass.Fast-Hatch.Value = 0
                         end
                     },
                     {
@@ -411,23 +408,22 @@ Tabs.Misc:AddParagraph({
     })
 
 		Tabs.Misc:AddParagraph({
-        Title = "FastMagic GamePass",
-        Content = "FastMagic\nCool Scripts"
+        Title = "Fast-Hatch GamePass",
+        Content = "Fast-Hatch\nCool Scripts"
     })
 
 	Tabs.Misc:AddButton({
-        Title = "FastMagic On",
-        Description = "FastMagic ;)",
+        Title = "Fast-Hatch On",
+        Description = "Fast-Hatch ;)",
         Callback = function()
             Window:Dialog({
-                Title = "FastMagic",
-                Content = "FastMagic Super",
+                Title = "Fast-Hatch",
+                Content = "Fast-Hatch Super",
                 Buttons = {
                     {
                         Title = "On",
                         Callback = function()
                             game.Players.LocalPlayer.GamePass.HatchLuck.Value = 1
-							game.Players.LocalPlayer.GamePass.Fast-Hatch.Value = 1
                         end
                     },
                     {
@@ -442,18 +438,17 @@ Tabs.Misc:AddParagraph({
     })
 
 	Tabs.Misc:AddButton({
-        Title = "FastMagic Off",
-        Description = "FastMagic ;)",
+        Title = "Fast-Hatch Off",
+        Description = "Fast-Hatch ;)",
         Callback = function()
             Window:Dialog({
-                Title = "FastMagic",
-                Content = "FastMagic Super",
+                Title = "Fast-Hatch",
+                Content = "Fast-Hatch Super",
                 Buttons = {
                     {
                         Title = "On",
                         Callback = function()
                             game.Players.LocalPlayer.GamePass.HatchLuck.Value = 0
-							game.Players.LocalPlayer.GamePass.Fast-Hatch.Value = 0
                         end
                     },
                     {
@@ -484,7 +479,6 @@ Tabs.Misc:AddParagraph({
                         Title = "On",
                         Callback = function()
                             game.Players.LocalPlayer.GamePass.Double-Hatch.Value = 1
-							game.Players.LocalPlayer.GamePass.Ex-Drop.Value = 1
                         end
                     },
                     {
@@ -510,7 +504,6 @@ Tabs.Misc:AddParagraph({
                         Title = "On",
                         Callback = function()
                             game.Players.LocalPlayer.GamePass.Double-Hatch.Value = 0
-							game.Players.LocalPlayer.GamePass.Ex-Drop.Value = 0
                         end
                     },
                     {
